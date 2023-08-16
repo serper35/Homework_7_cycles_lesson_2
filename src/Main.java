@@ -49,7 +49,7 @@ public  class Main {
         int year = 0;
         int year_10 = 10;
         int difference;
-        System.out.println("\nЗадача №3");
+        System.out.println("\n\nЗадача №3");
 
         while (year < year_10) {
             difference = (population / averagePeople * birthRate) - (population / averagePeople * death);
@@ -135,7 +135,7 @@ public  class Main {
         System.out.println("\nЗадача №8");
 
         for (int i = pastYear; i <= futureYear; i++ ) {
-            if (i % 79 == 0) {
+            if (i % cometYear == 0) {
                 System.out.println("Комета пролетала (пролетит) в " + i + " году.");
             }
         }
